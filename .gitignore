@@ -138,3 +138,4 @@ dmypy.json
 redis_data/
 
 .idea/
+.env
