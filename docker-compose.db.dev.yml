@@ -1,0 +1,9 @@
+version: '2.4'
+
+services:
+  redis:
+    ports:
+      - 127.0.0.1:${HLL_REDIS_HOST_PORT:-6379}:6379
+  postgres:
+    ports:
+      - 127.0.0.1:${HLL_DB_HOST_PORT:-5432}:5432
